@@ -1,10 +1,8 @@
-function checkTemp(temperatuur) {
-  if (temperatuur >= 0 && temperature <= 20)
-
+function checkTemp(temperature) {
+  if (temperature >= 0 && temperature <= 20)
     return -1; // liiga kylm
-  else if (temperatuur >= 21 && temperatuur <= 40)
-
+  else if (temperature >= 21 && temperature <= 40)
     return 0; // ideaalne temperatuur
-  else if (temperatuur >= 41 && temperatuur <= 60)
-    return 1
-}; // liiga kuum 
+  else if (temperature >= 41 && temperature <= 60)
+    return 1; // liiga kuum
+}
